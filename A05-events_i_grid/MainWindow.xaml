@@ -1,0 +1,16 @@
+﻿<Window x:Class="A05_events_i_grid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A05_events_i_grid"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel ButtonBase.Click="panel_Click">
+
+        <Button Name="boto1" Content="Boto1" HorizontalAlignment="Left" Width="250" Click="boto1_Click"></Button>
+        <Button Name="boto2" Content="Boto2" HorizontalAlignment="Center" Width="250" MouseDown="boto2_MouseDown"/>
+        <Button Name="boto3" Content="Boto3" HorizontalAlignment="Right" Width="250" PreviewMouseDown="boto3_PreviewMouseDown"></Button>
+
+    </StackPanel>
+</Window>

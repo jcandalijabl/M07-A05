@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "A05-events_i_grid/1.0.0": {
+        "runtime": {
+          "A05-events_i_grid.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "A05-events_i_grid/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
